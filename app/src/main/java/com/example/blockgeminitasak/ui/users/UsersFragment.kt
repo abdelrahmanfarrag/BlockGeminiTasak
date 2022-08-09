@@ -6,13 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.blockgeminitasak.R
 import com.example.blockgeminitasak.data.models.ProgressTypes
-import com.example.blockgeminitasak.data.utility.Error.GENERAL
-import com.example.blockgeminitasak.data.utility.Error.NETWORK
 import com.example.blockgeminitasak.databinding.FragmentUsersBinding
 import com.example.blockgeminitasak.di.presentation.fragment.FragmentSubComponent
 import com.example.blockgeminitasak.di.presentation.viewmodel.ViewModelFactoryProvider
 import com.example.blockgeminitasak.ui.base.BaseFragment
 import com.example.blockgeminitasak.ui.users.adapter.UsersAdapter
+import com.example.blockgeminitasak.utility.Error.GENERAL
+import com.example.blockgeminitasak.utility.Error.NETWORK
 import com.example.blockgeminitasak.utility.PagingScrollListener
 import com.example.blockgeminitasak.utility.getViewModel
 import com.example.blockgeminitasak.utility.observingLiveDataOfFragment

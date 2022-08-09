@@ -3,24 +3,17 @@ package com.example.blockgeminitasak.ui.users
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.blockgeminitasak.data.models.LoadingModel
 import com.example.blockgeminitasak.data.models.ProgressTypes
-import com.example.blockgeminitasak.data.models.User
 import com.example.blockgeminitasak.data.models.UsersResponse
-import com.example.blockgeminitasak.data.utility.Error.GENERAL
 import com.example.blockgeminitasak.domain.usecase.IUsersUseCase
 import com.example.blockgeminitasak.ui.common.Resource
-import com.example.blockgeminitasak.ui.common.ResourceState
+import com.example.blockgeminitasak.utility.Error.GENERAL
 import com.example.blockgeminitasak.utility.setError
 import com.example.blockgeminitasak.utility.setLoading
 import com.example.blockgeminitasak.utility.setSuccess
-import io.reactivex.Completable
-import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
-import io.reactivex.subjects.BehaviorSubject
-import io.reactivex.subjects.PublishSubject
 import javax.inject.Inject
 
 class UsersViewModel @Inject constructor(private val iUsersUseCase: IUsersUseCase) : ViewModel() {

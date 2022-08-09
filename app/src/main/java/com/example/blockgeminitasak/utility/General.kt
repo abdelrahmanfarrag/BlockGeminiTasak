@@ -1,4 +1,4 @@
-package com.example.blockgeminitasak.data.utility
+package com.example.blockgeminitasak.utility
 
 object Error {
     const val GENERAL = "_error"
