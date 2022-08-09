@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BlockGeminiTasak</string>
+    <string name="un_expected_error">Something went wrong</string>
+    <string name="internet_connection_error">No Internet connection</string>
+</resources>
